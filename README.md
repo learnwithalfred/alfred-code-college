@@ -2,7 +2,7 @@
 
 # Coding School
 
-> HTML/CSS & JavaScript capstone project - Conference page
+> HTML/CSS & JavaScript capstone project - from Microverse
 
 ## Built With
 
