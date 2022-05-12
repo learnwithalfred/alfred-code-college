@@ -1,0 +1,55 @@
+.header {
+  height: 70vh;
+  background-image: url(/img/main_big.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+
+  &__hamburger {
+    display: block;
+    margin: 0 1.2rem;
+    width: 1.5rem;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  &__top-menu {
+    display: none;
+  }
+
+  &__main-menu {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    height: 100vh;
+
+    &__top-menu {
+      display: block;
+      background-color: var(--bs-dark);
+      font-size: 0.7rem;
+    }
+
+    &__main-menu {
+      display: block;
+      background-color: white;
+      font-weight: 500;
+    }
+
+    &__hamburger {
+      display: none;
+    }
+
+    &__nav-button {
+      border: 0.2rem solid #ec5242;
+      padding: 0 0.3em;
+      color: #ec5242;
+    }
+  }
+
+  .active {
+    color: #ec5242;
+  }
+}
