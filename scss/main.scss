@@ -1,6 +1,28 @@
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 @import 'header';
+@import 'program';
+@import 'config';
 
-$primary-color: #272a31;
-$secondary-color: #ec5242;
-$light-color: #d3d3d3;
+a {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+hr {
+  border-bottom: 1px solid $light-color;
+}
+
+.secondary__hr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $secondary-color;
+  border-bottom: 5px solid red;
+  width: 4rem;
+  margin: 0 auto;
+}

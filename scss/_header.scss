@@ -16,6 +16,7 @@
     cursor: pointer;
     font-size: 2rem;
   }
+
   &__top-menu {
     display: none;
   }
@@ -27,8 +28,9 @@
   &__jumbotron {
     margin: 0 1rem;
   }
+
   &__main-img {
-    margin-top: 3rem;
+    margin-top: 2rem;
     width: 70%;
   }
 
@@ -88,6 +90,7 @@
     &__jumbotron {
       margin: 0 6rem;
     }
+
     &__main-img {
       margin-top: 3rem;
       height: 200px;
