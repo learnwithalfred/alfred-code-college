@@ -1,5 +1,5 @@
 .speakers {
-      margin: 1rem;
+  margin: 1rem;
   &__hr {
     border-bottom: 1px solid $primary-color;
     width: 2rem;
@@ -15,10 +15,6 @@
       .about {
         font-size: 0.7rem;
         color: $secondary-color;
-
-        p {
-          font-size: 0.7rem;
-        }
       }
     }
   }
@@ -44,7 +40,7 @@
       &--info {
         // margin: 1rem;
 
-        .about {
+        &__about {
           font-size: 0.7rem;
           color: $secondary-color;
           font-style: italic;

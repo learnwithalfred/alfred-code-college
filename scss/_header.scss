@@ -1,4 +1,4 @@
-.header {
+  .home-header{
   height: 70vh;
   width: 100vw;
   background-image: url(/img/main_big.png);
@@ -8,6 +8,9 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  }
+
+.header {
 
   &__hamburger {
     display: block;
@@ -61,8 +64,11 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .header {
+    .home-header{
     height: 100vh;
+    }
+  .header {
+
 
     &__top-menu {
       display: block;
