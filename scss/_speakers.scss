@@ -1,0 +1,55 @@
+.speakers {
+      margin: 1rem;
+  &__hr {
+    border-bottom: 1px solid $primary-color;
+    width: 2rem;
+
+  }
+  &__card {
+    display: flex;
+    flex-direction: row;
+
+    &--info {
+      margin: 0.5rem;
+
+      .about {
+        font-size: 0.7rem;
+        color: $secondary-color;
+
+        p {
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .speakers {
+    margin: 0 7rem;
+    padding: 0 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    &__img {
+      width: auto;
+      max-height: 3rem;
+    }
+
+    &__card {
+      display: flex;
+      flex-direction: row;
+
+      &--info {
+        // margin: 1rem;
+
+        .about {
+          font-size: 0.7rem;
+          color: $secondary-color;
+          font-style: italic;
+        }
+      }
+    }
+  }
+}
