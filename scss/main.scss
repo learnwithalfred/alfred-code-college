@@ -1,7 +1,10 @@
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'config';
 @import 'header';
 @import 'program';
-@import 'config';
+@import 'speakers';
+@import 'partners';
+@import 'footer';
 
 a {
   color: $primary-color;
@@ -22,7 +25,7 @@ hr {
   align-items: center;
   justify-content: center;
   color: $secondary-color;
-  border-bottom: 5px solid red;
+  border-bottom: 5px solid $secondary-color;
   width: 4rem;
   margin: 0 auto;
 }
