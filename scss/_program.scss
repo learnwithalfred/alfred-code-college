@@ -1,0 +1,102 @@
+@import 'config';
+
+.program {
+  background-image: url(/img/black-g0773ed221_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+  color: $light-color;
+
+  &__see {
+    margin: auto;
+
+    &-more {
+      display: flex;
+      padding: 1rem;
+      background-color: $secondary-color;
+      color: $light-color;
+      font-size: large;
+      text-align: center;
+      margin: auto;
+      cursor: pointer;
+      transition: all 500ms ease-in;
+      border-radius: 0.1rem;
+
+      &:hover {
+        background-color: $light-color;
+        color: $secondary-color;
+      }
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0.5rem;
+    padding: 0.8rem;
+
+    &--icon {
+      flex: 1;
+      font-size: 1.2rem;
+    }
+
+    &--header {
+      flex: 2;
+      color: $secondary-color;
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+
+    &--text {
+      flex: 5;
+      font-size: 0.8rem;
+      padding-left: 0.5rem;
+    }
+  }
+}
+
+.card {
+  background-color: rgba($color: #fff, $alpha: 0.5);
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .program {
+    &__see-more {
+      background-color: transparent;
+      color: var(--bs-white);
+      text-transform: uppercase;
+      text-decoration: underline;
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      padding: 5px;
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+
+      &--icon {
+        padding: 0.5rem;
+      }
+
+      &--header {
+        color: $secondary-color;
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin: 0.3rem 0;
+      }
+
+      &--text {
+        font-size: 0.8rem;
+        padding-left: 0.5rem;
+        text-align: center;
+      }
+    }
+  }
+}
