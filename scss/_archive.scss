@@ -1,0 +1,48 @@
+@import 'config';
+
+.archive__container {
+  position: relative;
+
+  &--box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 900;
+  }
+
+  &--year {
+    font-weight: 900;
+  }
+
+  &--description {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+}
+
+.gallery--left {
+  width: 100%;
+  height: 15rem;
+  background-image: linear-gradient(
+      to right,
+      rgba($secondary-color, 0.8),
+      rgba($secondary-color, 0.7)
+    ),
+    url(/img/archive-1.jpg);
+  background-size: cover;
+}
+
+.gallery--right {
+  width: 100%;
+  height: 15rem;
+  background-image: linear-gradient(
+      to right,
+      rgba($secondary-color, 0.8),
+      rgba($secondary-color, 0.7)
+    ),
+    url(/img/archive-2.jpg);
+  background-size: cover;
+}
