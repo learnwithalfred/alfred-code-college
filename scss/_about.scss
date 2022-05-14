@@ -1,7 +1,6 @@
 @import 'config';
 
 .about__header {
-  height: 75vh;
   background-image: url(/img/main_big.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,5 +52,10 @@
         font-size: 1.2rem;
       }
     }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .about__header {
   }
 }
