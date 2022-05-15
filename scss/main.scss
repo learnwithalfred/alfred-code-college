@@ -7,6 +7,7 @@
 @import 'about';
 @import 'brand';
 @import 'archive';
+@import 'footer';
 
 a {
   color: $primary-color;
@@ -30,4 +31,9 @@ hr {
   border-bottom: 5px solid $secondary-color;
   width: 4rem;
   margin: 0 auto;
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
 }

@@ -43,12 +43,30 @@
   }
 
   &__jumbotron {
-    margin: 0 1rem;
-  }
+    margin: 4rem 1rem 1rem 1rem;
 
-  &__main-img {
-    margin-top: 2rem;
-    height: 100px;
+    &-header {
+      width: 100;
+
+      &__main {
+        font-family: 'COCOGOOSE', sans-serif;
+        text-transform: uppercase;
+        background-repeat: repeat;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        font-weight: 400;
+        font-size: 2rem;
+        background-image: url(/img/balloons-gddad522db_640.jpg);
+      }
+      &__sub {
+        font-weight: 300;
+        margin: 2rem 0;
+        font-size: 2rem;
+        color: $secondary-color;
+      }
+    }
   }
 
   &__sub-text {
@@ -163,6 +181,29 @@
 
     &__jumbotron {
       margin: 0 6rem;
+
+      &-header {
+        width: 60vw;
+
+        &__main {
+          font-family: 'COCOGOOSE', sans-serif;
+          text-transform: uppercase;
+          background-repeat: repeat;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          -webkit-font-smoothing: antialiased;
+          font-weight: 400;
+          font-size: 3.4rem;
+          background-image: url(/img/balloons-gddad522db_640.jpg);
+        }
+        &__sub {
+          font-weight: 300;
+          margin: 2rem 0;
+          font-size: 2rem;
+          color: $secondary-color;
+        }
+      }
     }
 
     &__main-img {
