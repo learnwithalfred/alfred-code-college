@@ -15,6 +15,7 @@
     margin: 0.3rem 0;
     padding: 0;
   }
+
   &__img {
     width: auto;
     height: 80px;
@@ -27,12 +28,14 @@
 
     &--info {
       margin-left: 0.5rem;
+
       &__about {
         font-size: 0.7rem;
         color: $secondary-color;
         margin: 0;
         padding: 0;
       }
+
       &__msg {
         font-size: 0.7rem;
         font-style: italic;
@@ -75,12 +78,14 @@
 
     &--info {
       margin-left: 0.5rem;
+
       &__about {
         font-size: 1rem;
         color: $secondary-color;
         margin: 0;
         padding: 0;
       }
+
       &__msg {
         font-size: 1rem;
         font-style: italic;
