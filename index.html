@@ -37,9 +37,7 @@
             <a class="me-3 py-1 text-light text-decoration-none" href="#"
               >English</a
             >
-            <a class="me-3 py-1 text-light text-decoration-none" href="#"
-              >My Page</a
-            >
+
             <a class="py-1 text-light text-decoration-none mr-3" href="#"
               >Logout</a
             >
@@ -66,17 +64,17 @@
             >
             <a
               class="me-3 py-2 text-dark text-decoration-none"
-              href="about.html"
+              href="./#program"
               >Program</a
             >
             <a
               class="me-3 py-2 text-dark text-decoration-none"
-              href="about.html"
-              >Sponsor</a
+              href="./#speakers"
+              >Speakers</a
             >
             <a
               class="me-3 py-2 text-dark text-decoration-none"
-              href="about.html"
+              href="about.html#news"
               >News</a
             >
             <a
@@ -91,7 +89,9 @@
       <!-- mobile nav -->
       <div class="mobile-nav">
         <div class="close-button-container">
-          <p class="close-button-logo">Logo</p>
+          <a href="index.html" title="Home Page" class="close-button-logo"
+            >Logo</a
+          >
           <a
             href="index.html"
             title="button"
@@ -102,9 +102,9 @@
           </a>
         </div>
         <a class="nav__item" aria-current="page" href="about.html">About</a>
-        <a class="nav__item" href="about.html">Program</a>
-        <a class="nav__item" href="about.html">Sponsor</a>
-        <a class="nav__item" href="about.html">News</a>
+        <a class="nav__item" href="./#program">Program</a>
+        <a class="nav__item" href="./#speakers">Speakers</a>
+        <a class="nav__item" href="about.html#news">News</a>
         <div class="program__see">
           <a
             href="about.html"
@@ -142,6 +142,7 @@
     <main>
       <section
         class="program d-flex flex-column text-align-center justify-content-center p-1 mb-1"
+        id="program"
       >
         <div
           class="program__header d-flex flex-column text-align-center justify-content-center p-2 mt-3 mb-1"
@@ -252,7 +253,7 @@
         </div>
       </section>
 
-      <section class="speakers">
+      <section class="speakers" id="speakers">
         <div
           class="d-flex flex-column text-align-center justify-content-center mt-4 mb-1"
         >

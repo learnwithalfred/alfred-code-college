@@ -90,11 +90,12 @@
   right: 0;
   overflow: hidden;
   cursor: default;
+  transition: all 500ms ease-in-out;
 }
 
 .mobile-nav.active {
   left: 0;
-   height: 100vh;
+  height: 100vh;
 }
 
 .nav__item {
