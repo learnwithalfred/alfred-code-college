@@ -73,21 +73,21 @@ for (let i = 0; i < data.length; i += 1) {
   dynamic.innerHTML = ` 
     <div class="col">
       <div class="speakers__card">
-      <div class="speakers__img">
+      <div class="speakers__img--container">
           <img
                 src="${data[i].img}"
       alt="${data[i].name}"
       title="${data[i].name}"
-            class="img"
+            class="speakers__img"
           />
         </div>
         <div class="speakers__card--info">
-          <h4>${data[i].name}</h4>
+          <h5 class'speakers__card--header'>${data[i].name}</h5>
           <p class="speakers__card--info__about">
             ${data[i].about}
           </p>
           <hr class="speakers__hr" />
-          <p>
+          <p class="speakers__card--info__msg">
             ${data[i].message}
           </p>
         </div>
