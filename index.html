@@ -20,7 +20,7 @@
   </head>
   <body>
     <header class="header home-header">
-      <div class="header__hamburger">
+      <div class="header__hamburger hamburger">
         <i class="fa-solid fa-bars"></i>
       </div>
       <div class="header__top-menu">
@@ -48,10 +48,10 @@
       </div>
       <div class="header__main-menu">
         <div
-          class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 container"
+          class="d-flex flex-column flex-md-row align-items-center container"
         >
           <a
-            href="/"
+            href="index.html"
             class="d-flex align-items-center text-dark text-decoration-none"
           >
             <img src="img/logo.png" alt="Logo" title="logo" />
@@ -61,24 +61,61 @@
             <a
               class="me-3 py-2 text-decoration-none active"
               aria-current="page"
-              href="#"
+              href="about.html"
               >About</a
             >
-            <a class="me-3 py-2 text-dark text-decoration-none" href="#"
+            <a
+              class="me-3 py-2 text-dark text-decoration-none"
+              href="about.html"
               >Program</a
             >
-            <a class="me-3 py-2 text-dark text-decoration-none" href="#"
+            <a
+              class="me-3 py-2 text-dark text-decoration-none"
+              href="about.html"
               >Sponsor</a
             >
-            <a class="me-3 py-2 text-dark text-decoration-none" href="#"
+            <a
+              class="me-3 py-2 text-dark text-decoration-none"
+              href="about.html"
               >News</a
             >
-            <a class="py-2 text-decoration-none header__nav-button" href="#"
+            <a
+              class="py-2 text-decoration-none header__nav-button"
+              href="about.html"
               >CC Campaign</a
             >
           </nav>
         </div>
       </div>
+
+      <!-- mobile nav -->
+      <div class="mobile-nav">
+        <div class="close-button-container">
+          <p class="close-button-logo">Logo</p>
+          <a
+            href="index.html"
+            title="button"
+            data-close-button
+            class="close-button"
+          >
+            &times;
+          </a>
+        </div>
+        <a class="nav__item" aria-current="page" href="about.html">About</a>
+        <a class="nav__item" href="about.html">Program</a>
+        <a class="nav__item" href="about.html">Sponsor</a>
+        <a class="nav__item" href="about.html">News</a>
+        <div class="program__see">
+          <a
+            href="about.html"
+            title="See more Pogroms"
+            target="_blank"
+            class="program__see-more text-center nav__item"
+            >See More Projects</a
+          >
+        </div>
+      </div>
+      <!-- mobile nav end -->
       <div class="header__jumbotron">
         <img
           src="/img/title.png"
@@ -223,54 +260,9 @@
           <hr class="secondary__hr" />
         </div>
 
-        <div class="row row-cols-1 row-cols-md-2 g-2 mt-4">
-          <div class="col">
-            <div class="speakers__card">
-              <div class="speakers__img">
-                <img
-                  src="img/speaker_01.png"
-                  alt="speaker"
-                  title="speaker"
-                  class="img"
-                />
-              </div>
-              <div class="speakers__card--info">
-                <h4>Yochai Benkler</h4>
-                <p class="speakers__card--info__about">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing.
-                </p>
-                <hr class="speakers__hr" />
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
-                  vitae repellendus, harum modi voluptatum hic.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="speakers__card">
-              <div class="speakers__img">
-                <img
-                  src="img/speaker_03.png"
-                  alt="speaker"
-                  title="speaker"
-                  class="img"
-                />
-              </div>
-              <div class="speakers__card--info">
-                <h4>Yochai Benkler</h4>
-                <p class="speakers__card--info__about">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing.
-                </p>
-                <hr class="speakers__hr" />
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
-                  vitae repellendus, harum modi voluptatum hic.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div
+          class="row row-cols-1 row-cols-md-2 g-2 mt-4 speaker-container"
+        ></div>
       </section>
       <section class="partners">
         <div class="partners__header">
@@ -303,5 +295,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="/js/speakers.js"></script>
+    <script src="/js/menu.js"></script>
   </body>
 </html>
