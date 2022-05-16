@@ -110,3 +110,13 @@ viewLess.addEventListener('click', () => {
   speakersLength = defaultArrLength;
   printData(speakersLength);
 });
+
+window.onresize = () => {
+  if (detectMob()) {
+    dynamic.innerHTML = '';
+    printData(2);
+  } else {
+    dynamic.innerHTML = '';
+    printData(data.length);
+  }
+};
