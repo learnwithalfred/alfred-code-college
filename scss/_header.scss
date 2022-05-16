@@ -58,7 +58,7 @@
         -webkit-font-smoothing: antialiased;
         font-weight: 400;
         font-size: 2rem;
-        background-image: url(/img/balloons-gddad522db_640.jpg);
+          background-image: url(/img/txt-bg-1.png);
       }
 
       &__sub {
@@ -189,16 +189,8 @@
         width: 60vw;
 
         &__main {
-          font-family: 'COCOGOOSE', sans-serif;
-          text-transform: uppercase;
-          background-repeat: repeat;
-          color: transparent;
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          -webkit-font-smoothing: antialiased;
-          font-weight: 400;
           font-size: 3.4rem;
-          background-image: url(/img/balloons-gddad522db_640.jpg);
+
         }
 
         &__sub {
