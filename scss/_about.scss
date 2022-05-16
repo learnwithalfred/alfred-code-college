@@ -14,19 +14,14 @@
   text-align: center;
 
   &__hero {
-    color: $secondary-color;
+    color: $info-color;
     padding: 2em 0 1rem;
     font-family: 'COCOGOOSE', sans-serif;
-
-    &--sub {
-      font-size: 1.6rem;
-      font-weight: 900;
-    }
 
     &--main {
       text-transform: uppercase;
       margin: 0.5rem 0;
-      font-size: 1.6rem;
+      font-size: 3rem;
       font-weight: 900;
     }
   }

@@ -77,7 +77,7 @@ const printData = (arrLength) => {
         />
       </div>
       <div class="speakers__card--info">
-        <h5 class='speakers__card--header'>${data[i].name}</h5>
+        <h4 class='speakers__card--header'>${data[i].name}</h4>
         <p class="speakers__card--info__about">
           ${data[i].about}
         </p>
