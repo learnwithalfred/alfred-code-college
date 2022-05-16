@@ -1,3 +1,5 @@
+const detectMob = () => window.innerWidth <= 768;
+
 const data = [
   {
     id: 'ebeb3b9a-4a52-4fea-bd33-8ff70824ef8b',
@@ -49,7 +51,6 @@ const data = [
   },
 ];
 
-const detectMob = () => window.innerWidth <= 768;
 const viewMore = document.querySelector('.view-more');
 const viewLess = document.querySelector('.view-less');
 const defaultArrLength = 2;
