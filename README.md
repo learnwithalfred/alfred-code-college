@@ -11,10 +11,6 @@
 - JAVASCRIPT
 - SCSS
 
-## Live Demo
-
-[Live Demo Link](https://learnwithalfred.github.io/alfred-code-college/)
-
 ## Getting Started
 
 **To get a local copy up and running follow these simple example steps.**
