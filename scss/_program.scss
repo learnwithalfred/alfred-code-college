@@ -26,11 +26,11 @@
 
   &__card {
     background-color: rgba($color: rgb(70, 69, 72), $alpha: 0.7);
-    color: $light-color;;
+    color: $light-color;
 
     &:active,
     &:hover {
-      border: 3px solid $light-color;;
+      border: 3px solid $light-color;
     }
   }
 
@@ -40,9 +40,10 @@
     &-more {
       display: flex;
       padding: 1rem;
-      background-color: $secondary-color;
-      color: $light-color;
-      font-size: large;
+      background-color: rgb(255, 0, 0);
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 400;
       text-align: center;
       margin: auto;
       cursor: pointer;
@@ -50,7 +51,7 @@
       border-radius: 0.1rem;
 
       &:hover {
-        background-color: $light-color;
+        background-color: white;
         color: $secondary-color;
       }
     }

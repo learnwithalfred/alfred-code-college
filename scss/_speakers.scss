@@ -48,6 +48,7 @@
     }
   }
 }
+
 .view-more {
   display: block;
 }
@@ -104,7 +105,8 @@
     }
   }
 
-  .view-more {
+  .view-more,
+  .view-less {
     display: none;
   }
 }
