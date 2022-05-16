@@ -49,38 +49,63 @@ const data = [
   },
 ];
 
+const detectMob = () => window.innerWidth <= 768;
+const viewMore = document.querySelector('.view-more');
+const viewLess = document.querySelector('.view-less');
+const defaultArrLength = 2;
+
+viewLess.classList.add('d-none');
 const dynamic = document.querySelector('.speaker-container');
+let speakersLength = detectMob() ? defaultArrLength : data.length;
 
-for (let i = 0; i < data.length; i += 1) {
-  const fetch = document.querySelector('.speaker-container').innerHTML;
+const printData = (arrLength) => {
+  for (let i = arrLength - 1; i >= 0; i -= 1) {
+    const fetch = document.querySelector('.speaker-container').innerHTML;
 
-  dynamic.innerHTML = ` 
-    <div class="col">
-                <div class="speakers--content">
+    dynamic.innerHTML = ` 
+  <div class="col">
+              <div class="speakers--content">
 
-      <div class="speakers__card">
-      <div class="speakers__img--container">
-          <img
-                src="${data[i].img}"
-      alt="${data[i].name}"
-      title="${data[i].name}"
-            class="speakers__img"
-          />
-        </div>
-        <div class="speakers__card--info">
-          <h5 class='speakers__card--header'>${data[i].name}</h5>
-          <p class="speakers__card--info__about">
-            ${data[i].about}
-          </p>
-          <hr class="speakers__hr" />
-          <p class="speakers__card--info__msg">
-            ${data[i].message}
-          </p>
-        </div>
-       </div>
-
+    <div class="speakers__card">
+    <div class="speakers__img--container">
+        <img
+              src="${data[i].img}"
+    alt="${data[i].name}"
+    title="${data[i].name}"
+          class="speakers__img"
+        />
       </div>
+      <div class="speakers__card--info">
+        <h5 class='speakers__card--header'>${data[i].name}</h5>
+        <p class="speakers__card--info__about">
+          ${data[i].about}
+        </p>
+        <hr class="speakers__hr" />
+        <p class="speakers__card--info__msg">
+          ${data[i].message}
+        </p>
+      </div>
+      </div>
+
     </div>
-    
+  </div>
+  
 ${fetch}`;
-}
+  }
+};
+printData(speakersLength);
+
+viewMore.addEventListener('click', () => {
+  dynamic.innerHTML = '';
+  viewMore.classList.add('d-none');
+  viewLess.classList.remove('d-none');
+  printData(data.length);
+});
+
+viewLess.addEventListener('click', () => {
+  dynamic.innerHTML = '';
+  viewMore.classList.remove('d-none');
+  viewLess.classList.add('d-none');
+  speakersLength = defaultArrLength;
+  printData(speakersLength);
+});

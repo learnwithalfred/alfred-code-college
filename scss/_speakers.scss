@@ -48,6 +48,17 @@
     }
   }
 }
+.view-more {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.btn-outline-dark {
+  width: 100%;
+}
 
 @media only screen and (min-width: 768px) {
   .speakers {
@@ -91,5 +102,9 @@
         font-style: italic;
       }
     }
+  }
+
+  .view-more {
+    display: none;
   }
 }
