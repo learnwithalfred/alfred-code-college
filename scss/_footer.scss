@@ -1,23 +1,39 @@
-.footer__icon--img {
-  width: auto;
-  height: 50px;
-  margin: auto;
-}
+.footer {
+  padding: 1rem 0;
 
-.footer__text {
-  font-size: 0.7rem;
+  &__icon--img {
+    width: auto;
+    height: 50px;
+    margin: auto;
+  }
 
-  &--header {
+  &__text {
     font-size: 0.7rem;
+
+    &--header {
+      font-size: 0.7rem;
+    }
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .footer__text {
-    font-size: 1rem;
+#footer-logo {
+  width: auto;
+  height: 50px;
+}
 
-    &--header {
-      font-size: 1rem;
+@media only screen and (min-width: 768px) {
+  .footer {
+    &__text {
+      font-size: 1.2rem;
+
+      &--header {
+        font-size: 1.2rem;
+      }
     }
+  }
+
+  #footer-logo {
+    width: auto;
+    height: 85px;
   }
 }
