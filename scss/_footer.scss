@@ -1,0 +1,39 @@
+.footer {
+  padding: 1rem 0;
+
+  &__icon--img {
+    width: auto;
+    height: 50px;
+    margin: auto;
+  }
+
+  &__text {
+    font-size: 0.7rem;
+
+    &--header {
+      font-size: 0.7rem;
+    }
+  }
+}
+
+#footer-logo {
+  width: auto;
+  height: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    &__text {
+      font-size: 1.2rem;
+
+      &--header {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  #footer-logo {
+    width: auto;
+    height: 85px;
+  }
+}

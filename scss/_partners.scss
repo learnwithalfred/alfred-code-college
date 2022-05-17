@@ -1,0 +1,40 @@
+@import 'config';
+
+.partners {
+  margin-top: 2rem;
+  background-color: $primary-color;
+  display: flex;
+  flex-direction: column;
+  color: $light-color;
+  padding: 1.5rem;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+
+    &__text {
+      color: $primary-color;
+      font-weight: 700;
+      font-size: medium;
+      margin: 0 auto;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 0 1.5rem;
+
+    &--item {
+      margin: 0.5em 1rem;
+    }
+  }
+}

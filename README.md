@@ -1,37 +1,75 @@
-## Welcome to GitHub Pages
+![](img/project-img.png)
 
-You can use the [editor on GitHub](https://github.com/learnwithalfred/alfred-code-college/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# Coding School
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+> HTML/CSS & JavaScript capstone project - from Microverse
 
-### Markdown
+## Built With
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- HTML
+- CSS
+- JAVASCRIPT
+- SCSS
 
-```markdown
-Syntax highlighted code block
+## Getting Started
 
-# Header 1
-## Header 2
-### Header 3
+**To get a local copy up and running follow these simple example steps.**
 
-- Bulleted
-- List
+To get a local copy up and running follow these simple example steps.
 
-1. Numbered
-2. List
+### Prerequisites
 
-**Bold** and _Italic_ and `Code` text
+- Node
+- Git
+- Code Editor
 
-[Link](url) and ![Image](src)
-```
+### Setup
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+- Clone the repository
+- Change directory into the project folder
+- Open project with text editor to view changes
 
-### Jekyll Themes
+### Install
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/learnwithalfred/alfred-code-college/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Install dev dependencies
+- If you are using vscode text editor, you can install [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
+  - Then update your location of SCSS main file in `vscode` > `settings.json` file.
+  ```
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/dist/css"
+    }
+  ],
+  ```
+- Please make sure you are compiling scss to see the styles working
 
-### Support or Contact
+- Run the code using [live server](https://www.google.com/search?client=safari&rls=en&q=live+server&ie=UTF-8&oe=UTF-8)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Author
+
+👤 **Alfred Boateng**
+
+- GitHub: [@learnwithalfred](https://github.com/learnwithalfred)
+- Twitter: [@kb_alfred](https://twitter.com/kb_alfred)
+- LinkedIn: [Alfred Boateng](https://www.linkedin.com/in/alfred-boateng-704670138/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Project Original design idea by [Cindy Shin in Behance](https://creativecommons.org/licenses/by-nc/4.0/)
+- Inspiration from [Microverse Bootcamp](https://www.microverse.org)
+
+## 📝 License
+
+This project is [MIT](/LICENSE) licensed.

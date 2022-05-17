@@ -1,0 +1,64 @@
+@import 'config';
+
+.about__header {
+  background-image: url(/img/main_big.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+}
+
+.about {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+
+  &__hero {
+    color: $info-color;
+    padding: 2em 0 1rem;
+    font-family: 'COCOGOOSE', sans-serif;
+
+    &--main {
+      text-transform: uppercase;
+      margin: 0.5rem 0;
+      font-size: 3rem;
+      font-weight: 900;
+    }
+  }
+
+  &__info-text {
+    border-radius: 2px;
+    padding: 0.8rem;
+    font-weight: 400;
+    color: $primary-color;
+    font-size: 1rem;
+    background-color: white;
+    border: 1px solid darkgray;
+  }
+
+  &__contact {
+    margin: 1.5rem 0 2.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+
+    &--email {
+      &__address {
+        font-weight: 700;
+        font-size: 1rem;
+        text-decoration: underline;
+      }
+
+      &__arrow {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .about {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+}
