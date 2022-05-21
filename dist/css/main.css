@@ -12580,7 +12580,7 @@ fieldset:disabled .btn {
 .about__hero--main {
   text-transform: uppercase;
   margin: 0.5rem 0;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 900;
 }
 
@@ -12615,6 +12615,12 @@ fieldset:disabled .btn {
     width: 70%;
     margin: auto;
     text-align: center;
+  }
+  .about--main {
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+    font-size: 3rem;
+    font-weight: 900;
   }
 }
 
