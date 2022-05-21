@@ -7,14 +7,14 @@ const data = [
     about: 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio',
     message:
       'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.',
-    img: 'img/speakers/1.png',
+    img: 'img/speakers/1.webp',
   },
   {
     id: 'd28c9e17-7dd9-4bc0-8775-0e03fb93665d',
     name: 'Devan Ropkins',
     about: 'Fusce posuere felis sed lacus. Morbi sem mauris',
     message: 'Fusce consequat. Nulla nisl. Nunc nisl.',
-    img: 'img/speakers/2.png',
+    img: 'img/speakers/2.webp',
   },
   {
     id: 'dc1a61d9-1a70-4ad9-ad62-13a123865cbf',
@@ -23,7 +23,7 @@ const data = [
       'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula',
     message:
       'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
-    img: 'img/speakers/3.png',
+    img: 'img/speakers/3.webp',
   },
   {
     id: 'bfa8df75-7556-43d0-a147-7c3e6fb7777f',
@@ -32,7 +32,7 @@ const data = [
       'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
     message:
       'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus ',
-    img: 'img/speakers/4.png',
+    img: 'img/speakers/4.webp',
   },
   {
     id: '62c8e787-bcc3-40c3-b80f-9f0a90402a56',
@@ -40,14 +40,14 @@ const data = [
     about:
       'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
     message: 'Quisque id justo sit amet sapien dignissim vestibulum.',
-    img: 'img/speakers/5.png',
+    img: 'img/speakers/5.webp',
   },
   {
     id: '2219ca0c-403d-42ac-ab30-00674c16b25c',
     name: 'Ingrid Almon',
     about: 'Phasellus in felis. Donec semper sapien a libero. Nam dui.',
     message: 'Cum sociis natoque penatibus et magnis dis parturient montes',
-    img: 'img/speakers/6.png',
+    img: 'img/speakers/6.webp',
   },
 ];
 

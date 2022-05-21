@@ -1,4 +1,4 @@
-![](img/project-img.png)
+![](img/project-img.webp)
 
 # Coding School
 
