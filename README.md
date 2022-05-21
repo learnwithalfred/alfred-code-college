@@ -47,6 +47,14 @@ To get a local copy up and running follow these simple example steps.
 
 - Run the code using [live server](https://www.google.com/search?client=safari&rls=en&q=live+server&ie=UTF-8&oe=UTF-8)
 
+## Deployment
+
+Webpage has been deployed to github pages
+
+## Live Demo
+
+[Live Demo Link](https://learnwithalfred.github.io/alfred-code-college/)
+
 ## Author
 
 👤 **Alfred Boateng**
