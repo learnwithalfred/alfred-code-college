@@ -11969,7 +11969,7 @@ fieldset:disabled .btn {
 
 .home-header {
   width: 100vw;
-  background-image: url(/img/main_big.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2022/04/05/19/34/motherhood-7114294_1280.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -12023,7 +12023,7 @@ fieldset:disabled .btn {
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
   font-size: 2rem;
-  background-image: url(/img/txt-bg.png);
+  background-image: url(https://cdn.pixabay.com/photo/2017/03/27/21/38/sunset-2180346__480.jpg);
 }
 
 .header__jumbotron-header__sub {
@@ -12220,7 +12220,7 @@ fieldset:disabled .btn {
 }
 
 .program {
-  background-image: url(/img/black-g0773ed221_1920.png);
+  background-image: url(https://cdn.pixabay.com/photo/2022/02/18/18/31/moon-7021271_1280.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -12377,7 +12377,7 @@ fieldset:disabled .btn {
 }
 
 .speakers--content {
-  background-image: url(/img/boxes.png);
+  background-image: url(https://cdn.pixabay.com/photo/2022/05/03/11/11/background-7171509_1280.jpg);
   background-repeat: no-repeat;
   background-size: 15%;
   background-position: center top;
@@ -12455,7 +12455,7 @@ fieldset:disabled .btn {
             flex-direction: column;
   }
   .speakers--content {
-    background-image: url(/img/boxes.png);
+    background-image: url(https://cdn.pixabay.com/photo/2022/05/03/11/11/background-7171509_1280.jpg);
     background-repeat: no-repeat;
     background-size: 20%;
     background-position: center top;
@@ -12558,7 +12558,7 @@ fieldset:disabled .btn {
 }
 
 .about__header {
-  background-image: url(/img/main_big.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2022/05/17/10/06/landscape-7202270_1280.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -12782,28 +12782,28 @@ fieldset:disabled .btn {
 .gallery--left {
   width: 100%;
   height: 15rem;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(236, 82, 66, 0.8)), to(rgba(236, 82, 66, 0.7))), url(/img/archive-1.png);
-  background-image: linear-gradient(to right, rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.7)), url(/img/archive-1.png);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(236, 82, 66, 0.8)), to(rgba(236, 82, 66, 0.7))), url(https://cdn.pixabay.com/photo/2020/07/11/23/36/meeting-5395615__480.jpg);
+  background-image: linear-gradient(to right, rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.7)), url(https://cdn.pixabay.com/photo/2020/07/11/23/36/meeting-5395615__480.jpg);
   background-size: cover;
 }
 
 .gallery--left:hover {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(39, 42, 49, 0.8)), to(rgba(39, 42, 49, 0.7))), url(/img/archive-2.png);
-  background-image: linear-gradient(to right, rgba(39, 42, 49, 0.8), rgba(39, 42, 49, 0.7)), url(/img/archive-2.png);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(39, 42, 49, 0.8)), to(rgba(39, 42, 49, 0.7))), url(https://cdn.pixabay.com/photo/2020/07/11/23/36/meeting-5395615__480.jpg);
+  background-image: linear-gradient(to right, rgba(39, 42, 49, 0.8), rgba(39, 42, 49, 0.7)), url(https://cdn.pixabay.com/photo/2020/07/11/23/36/meeting-5395615__480.jpg);
   background-size: cover;
 }
 
 .gallery--right {
   width: 100%;
   height: 15rem;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(236, 82, 66, 0.8)), to(rgba(236, 82, 66, 0.7))), url(/img/archive-2.png);
-  background-image: linear-gradient(to right, rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.7)), url(/img/archive-2.png);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(236, 82, 66, 0.8)), to(rgba(236, 82, 66, 0.7))), url(https://cdn.pixabay.com/photo/2020/01/22/09/38/meeting-4784909__480.jpg);
+  background-image: linear-gradient(to right, rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.7)), url(https://cdn.pixabay.com/photo/2020/01/22/09/38/meeting-4784909__480.jpg);
   background-size: cover;
 }
 
 .gallery--right:hover {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(39, 42, 49, 0.8)), to(rgba(39, 42, 49, 0.7))), url(/img/archive-2.png);
-  background-image: linear-gradient(to right, rgba(39, 42, 49, 0.8), rgba(39, 42, 49, 0.7)), url(/img/archive-2.png);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(39, 42, 49, 0.8)), to(rgba(39, 42, 49, 0.7))), url(https://cdn.pixabay.com/photo/2020/01/22/09/38/meeting-4784909__480.jpg);
+  background-image: linear-gradient(to right, rgba(39, 42, 49, 0.8), rgba(39, 42, 49, 0.7)), url(https://cdn.pixabay.com/photo/2020/01/22/09/38/meeting-4784909__480.jpg);
   background-size: cover;
 }
 
