@@ -1,7 +1,7 @@
 @import 'config';
 
 .about__header {
-  background-image: url(/img/main_big.png);
+  background-image: url(https://cdn.pixabay.com/photo/2022/05/17/10/06/landscape-7202270_1280.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -21,7 +21,7 @@
     &--main {
       text-transform: uppercase;
       margin: 0.5rem 0;
-      font-size: 3rem;
+      font-size: 2.5rem;
       font-weight: 900;
     }
   }
@@ -38,7 +38,7 @@
 
   &__contact {
     margin: 1.5rem 0 2.5rem;
-    font-size: 0.8rem;
+    font-size: 0.76rem;
     font-weight: 400;
 
     &--email {
@@ -49,7 +49,7 @@
       }
 
       &__arrow {
-        font-size: 0.8rem;
+        font-size: 0.76rem;
       }
     }
   }
@@ -60,5 +60,12 @@
     width: 70%;
     margin: auto;
     text-align: center;
+
+    &--main {
+      text-transform: uppercase;
+      margin: 0.5rem 0;
+      font-size: 3rem;
+      font-weight: 900;
+    }
   }
 }

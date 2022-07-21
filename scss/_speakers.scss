@@ -2,7 +2,7 @@
   margin: 0 1rem;
 
   &--content {
-    background-image: url(/img/boxes.png);
+    background-image: url(https://cdn.pixabay.com/photo/2022/05/03/11/11/background-7171509_1280.jpg);
     background-repeat: no-repeat;
     background-size: 15%;
     background-position: center top;
@@ -30,14 +30,14 @@
       margin-left: 0.5rem;
 
       &__about {
-        font-size: 0.7rem;
+        font-size: 0.76rem;
         color: $secondary-color;
         margin: 0;
         padding: 0;
       }
 
       &__msg {
-        font-size: 0.7rem;
+        font-size: 0.76rem;
         font-style: italic;
       }
 
@@ -70,7 +70,7 @@
     flex-direction: column;
 
     &--content {
-      background-image: url(/img/boxes.png);
+      background-image: url(https://cdn.pixabay.com/photo/2022/05/03/11/11/background-7171509_1280.jpg);
       background-repeat: no-repeat;
       background-size: 20%;
       background-position: center top;
