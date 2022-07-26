@@ -51,10 +51,6 @@ To get a local copy up and running follow these simple example steps.
 
 Webpage has been deployed to github pages
 
-## Live Demo
-
-[Live Demo Link](https://learnwithalfred.github.io/alfred-code-college/)
-
 ## Author
 
 👤 **Alfred Boateng**
