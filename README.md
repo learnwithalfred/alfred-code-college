@@ -49,7 +49,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Deployment
 
-Webpage has been deployed to github pages
+https://learnwithalfred.github.io/alfred-code-college/
 
 ## Author
 
